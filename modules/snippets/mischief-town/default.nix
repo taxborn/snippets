@@ -12,7 +12,7 @@
       };
 
       forgejo = {
-        hostname = "git.mischief.town";
+        hostname = "100.64.2.0";
         port = 8193;
         vHost = "git.mischief.town";
       };
