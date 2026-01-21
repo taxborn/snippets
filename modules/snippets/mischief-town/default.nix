@@ -5,16 +5,20 @@
     description = "Hostnames, ports, and vHosts for mischief.town services.";
 
     default = {
-      # Glance
+      forgejo = {
+        hostname = "100.64.2.0";
+        port = 8193;
+        vHost = "git.mischief.town";
+      };
+
       glance = {
         port = 8282;
         vHost = "www.mischief.town";
       };
 
-      forgejo = {
-        hostname = "100.64.2.0";
-        port = 8193;
-        vHost = "git.mischief.town";
+      immich = {
+        port = 8272;
+        vHost = "img.mischief.town";
       };
 
       paperless = {
