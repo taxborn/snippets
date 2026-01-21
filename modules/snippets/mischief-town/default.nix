@@ -35,6 +35,11 @@
         port = 8222;
         vHost = "vw.mischief.town";
       };
+
+      copyparty = {
+        port = 3923;
+        vHost = "i.mischief.town";
+      };
     };
   };
 }
