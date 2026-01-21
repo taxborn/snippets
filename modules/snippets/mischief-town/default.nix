@@ -26,6 +26,11 @@
         vHost = "docs.mischief.town";
       };
 
+      taxborn-com = {
+        port = 8194;
+        vHost = "taxborn.com";
+      };
+
       vaultwarden = {
         port = 8222;
         vHost = "vw.mischief.town";
