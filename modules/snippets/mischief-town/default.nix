@@ -26,6 +26,11 @@
         vHost = "docs.mischief.town";
       };
 
+      pds = {
+        port = 8086;
+        vHost = "pds.mischief.town";
+      };
+
       taxborn-com = {
         port = 8194;
         vHost = "taxborn.com";
