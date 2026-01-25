@@ -37,6 +37,11 @@
         vHost = "knot.mischief.town";
       };
 
+      tangled-spindle = {
+        port = 9005;
+        vHost = "spindle.mischief.town";
+      };
+
       taxborn-com = {
         port = 8194;
         vHost = "taxborn.com";
