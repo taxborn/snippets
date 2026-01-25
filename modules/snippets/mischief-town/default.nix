@@ -31,6 +31,12 @@
         vHost = "pds.mischief.town";
       };
 
+      tangled-knot = {
+        port = 9004;
+        internalPort = 30106;
+        vHost = "knot.mischief.town";
+      };
+
       taxborn-com = {
         port = 8194;
         vHost = "taxborn.com";
