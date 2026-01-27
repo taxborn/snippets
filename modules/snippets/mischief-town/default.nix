@@ -28,6 +28,7 @@
 
       pds = {
         port = 8086;
+        gatekeeperPort = 8087;
         vHost = "pds.mischief.town";
       };
 
