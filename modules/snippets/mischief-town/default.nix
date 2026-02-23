@@ -5,6 +5,17 @@
     description = "Hostnames, ports, and vHosts for mischief.town services.";
 
     default = {
+      tailscaleIPs = {
+        uranium = "100.64.0.0";
+        tungsten = "100.64.0.1";
+        "helium-01" = "100.64.1.0";
+        carbon = "100.64.2.0";
+      };
+
+      loki.port = 3100;
+      prometheus.port = 9090;
+      nodeExporter.port = 9100;
+
       forgejo = {
         hostname = "100.64.2.0";
         port = 8193;
