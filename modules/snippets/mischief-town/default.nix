@@ -57,6 +57,11 @@
         port = 3923;
         vHost = "i.mischief.town";
       };
+
+      grafana = {
+        port = 3000;
+        vHost = "dash.mischief.town";
+      };
     };
   };
 }
