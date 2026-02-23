@@ -73,6 +73,8 @@
         port = 3000;
         vHost = "dash.mischief.town";
       };
+
+      smartctlExporter.port = 9633;
     };
   };
 }
