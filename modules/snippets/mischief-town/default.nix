@@ -29,12 +29,12 @@
 
       immich = {
         port = 8272;
-        vHost = "img.mischief.town";
+        vHost = "immich.tucuxi-hexatonic.ts.net";
       };
 
       paperless = {
         port = 21594;
-        vHost = "docs.mischief.town";
+        vHost = "paperless.tucuxi-hexatonic.ts.net";
       };
 
       pds = {
@@ -66,12 +66,12 @@
 
       copyparty = {
         port = 3923;
-        vHost = "i.mischief.town";
+        vHost = "copyparty.tucuxi-hexatonic.ts.net";
       };
 
       grafana = {
         port = 3000;
-        vHost = "dash.mischief.town";
+        vHost = "grafana.tucuxi-hexatonic.ts.net";
       };
 
       smartctlExporter.port = 9633;
