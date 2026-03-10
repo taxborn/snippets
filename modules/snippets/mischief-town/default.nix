@@ -20,6 +20,7 @@
       forgejo = {
         hostname = "100.64.2.0";
         port = 8193;
+        sshPort = 2222;
         vHost = "git.mischief.town";
       };
 
