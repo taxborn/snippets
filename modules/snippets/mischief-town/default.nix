@@ -55,6 +55,11 @@
         vHost = "spindle.mischief.town";
       };
 
+      hash-haus = {
+        port = 8195;
+        vHost = "hash.haus";
+      };
+
       taxborn-com = {
         port = 8194;
         vHost = "taxborn.com";
