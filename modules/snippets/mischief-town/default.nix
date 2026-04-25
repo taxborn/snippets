@@ -44,17 +44,6 @@
         vHost = "pds.mischief.town";
       };
 
-      tangled-knot = {
-        port = 9004;
-        internalPort = 30106;
-        vHost = "knot.mischief.town";
-      };
-
-      tangled-spindle = {
-        port = 9005;
-        vHost = "spindle.mischief.town";
-      };
-
       hash-haus = {
         port = 8195;
         vHost = "hash.haus";
@@ -74,8 +63,6 @@
         port = 3000;
         vHost = "grafana.tucuxi-hexatonic.ts.net";
       };
-
-      smartctlExporter.port = 9633;
     };
   };
 }
