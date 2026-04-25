@@ -70,11 +70,6 @@
         vHost = "vw.mischief.town";
       };
 
-      copyparty = {
-        port = 3923;
-        vHost = "copyparty.tucuxi-hexatonic.ts.net";
-      };
-
       grafana = {
         port = 3000;
         vHost = "grafana.tucuxi-hexatonic.ts.net";
