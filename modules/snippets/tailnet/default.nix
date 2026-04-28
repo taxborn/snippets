@@ -1,8 +1,8 @@
 {
-  config,
   lib,
   ...
-}: {
+}:
+{
   options.mySnippets.tailnet = {
     name = lib.mkOption {
       default = "tucuxi-hexatonic.ts.net";
