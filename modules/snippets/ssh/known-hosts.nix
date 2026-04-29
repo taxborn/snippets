@@ -11,15 +11,13 @@
     description = "Default ssh known hosts.";
 
     default = {
-      helium-01 = {
+      helium = {
         hostNames = [
-          "h01"
-          "h01.local"
-          "helium-01"
-          "helium-01.local"
-          "helium-01.${config.mySnippets.tailnet.name}"
+          "helium"
+          "helium.local"
+          "helium.${config.mySnippets.tailnet.name}"
         ];
-        publicKeyFile = "${self.inputs.secrets}/publicKeys/root_helium-01.pub";
+        publicKeyFile = "${self.inputs.secrets}/publicKeys/root_helium.pub";
       };
 
       carbon = {
