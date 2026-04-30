@@ -12,6 +12,11 @@
         carbon = "100.64.2.0";
         argon = "100.64.2.1";
       };
+
+      vaultwarden = {
+        domain = "vw.mischief.town";
+        port = 3001;
+      };
     };
   };
 }
