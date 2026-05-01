@@ -17,6 +17,11 @@
         domain = "vw.mischief.town";
         port = 3001;
       };
+
+      pds = {
+        domain = "pds.mischief.town";
+        port = 3002;
+      };
     };
   };
 }
